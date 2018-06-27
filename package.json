@@ -1,0 +1,31 @@
+{
+  "name": "orbital-starter",
+  "version": "1.0.0",
+  "description": "A very simple starter repository for orbital",
+  "main": "./dist/main.js",
+  "bin": {
+    "starter": "./dist/main.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orbital-js/starter.git"
+  },
+  "author": "Wilson Hobbs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orbital-js/starter/issues"
+  },
+  "homepage": "https://github.com/orbital-js/starter#readme",
+  "dependencies": {
+    "@orbital/core": "^1.0.0-alpha.28",
+    "chalk": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^10.3.6",
+    "ts-node": "^7.0.0",
+    "typescript": "^2.9.2"
+  }
+}
