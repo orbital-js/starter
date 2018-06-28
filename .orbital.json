@@ -1,0 +1,4 @@
+{
+    "$schema": "./schema.json",
+    "entryFile": "src/main.ts"
+}

@@ -1,10 +1,10 @@
 {
-  "name": "orbital-starter",
+  "name": "@orbital/cli",
   "version": "1.0.0",
-  "description": "A very simple starter repository for orbital",
+  "description": "The CLI companion to the Orbital Framework",
   "main": "./dist/main.js",
   "bin": {
-    "starter": "./dist/main.js"
+    "ob": "./dist/main.js"
   },
   "scripts": {
     "build": "tsc -p tsconfig.json"
@@ -21,10 +21,14 @@
   "homepage": "https://github.com/orbital-js/starter#readme",
   "dependencies": {
     "@orbital/core": "^1.0.0-alpha.28",
-    "chalk": "^2.4.1"
+    "chalk": "^2.4.1",
+    "nodegit": "^0.22.1",
+    "shelljs": "^0.8.2"
   },
   "devDependencies": {
     "@types/node": "^10.3.6",
+    "@types/nodegit": "^0.22.3",
+    "@types/shelljs": "^0.8.0",
     "ts-node": "^7.0.0",
     "typescript": "^2.9.2"
   }

@@ -1,10 +1,14 @@
 import { CLI } from '@orbital/core';
-import { SayCommand } from './commands/say.command';
+import { NewCommand } from './commands/new.command';
+import { TestCommand } from './commands/test.command';
 
 @CLI({
-    name: 'starter',
+    name: 'ob',
     version: '1.0.0',
-    prettyName: 'Starter CLI',
-    declarations: [SayCommand],
+    prettyName: 'Orbital CLI',
+    declarations: [
+        NewCommand,
+        TestCommand
+    ],
 })
 export class MyCLI { }
